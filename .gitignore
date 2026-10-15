@@ -1,0 +1,39 @@
+# Entornos virtuales y cachés de Python
+.venv/
+**/.venv/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Archivos generados por uv y herramientas de desarrollo
+.coverage
+htmlcov/
+pip-wheel-metadata/
+*.egg-info/
+
+# Secretos y credenciales locales
+*.license
+*.key
+*.pem
+.env
+.env.*
+!.env.example
+
+# Datos persistentes generados por MinIO
+MINIO/data/
+MINIO/certs/
+
+# Capturas locales que puedan contener secretos
+docs/assets/screenshots/**/*.local.*
+
+# Archivos del sistema y del editor
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json

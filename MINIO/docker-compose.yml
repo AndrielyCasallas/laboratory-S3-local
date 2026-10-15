@@ -1,0 +1,17 @@
+services:
+  minio-aistor:
+    image: quay.io/minio/aistor/minio
+    container_name: minio-aistor-prod
+    ports:
+      - "9000:9000"     # API S3
+      - "9001:9001"     # Web Console UI
+    environment:
+      - MINIO_ROOT_USER=admin
+      - MINIO_ROOT_PASSWORD=password123
+      - MINIO_LICENSE_FILE=/minio.license
+    volumes:
+      - ./data:/mnt/data
+      - ./minio.license:/minio.license
+      - ./certs:/etc/minio/certs
+    command: server /mnt/data --console-address ":9001"
+    restart: unless-stopped
