@@ -1,18 +1,19 @@
 # Capturas de MinIO AIStor
 
-Las imágenes disponibles están saneadas y se pueden consultar aquí:
+Las imágenes están ordenadas por flujo y se pueden consultar aquí:
 
 | Captura | Descripción |
 |---|---|
-| [1.png](1.png) | Solicitud de licencia AIStor |
-| [2.png](2.png) | Página de descargas de AIStor |
-| [3.png](3.png) | Descarga de la licencia |
-| [4.png](4.png) | Correo de activación de la licencia |
-| [5.png](5.png) | Confirmación de solicitud |
-| [6.png](6.png) | Archivo local de licencia |
-| [7.png](7.png) | Estructura local de MinIO |
+| [01-aistor-download.png](01-aistor-download.png) | Página de descargas de AIStor |
+| [02-license-request.png](02-license-request.png) | Solicitud de licencia AIStor |
+| [03-license-confirmation.png](03-license-confirmation.png) | Confirmación de solicitud |
+| [04-license-email.png](04-license-email.png) | Correo de activación de la licencia |
+| [05-license-key.png](05-license-key.png) | Clave de licencia AIStor |
+| [06-license-file.png](06-license-file.png) | Archivo local de licencia |
+| [07-minio-folder.png](07-minio-folder.png) | Estructura local de MinIO |
 
-Se cubrieron los nombres, correos, tokens, contenidos de licencia y nombres de archivos
-sensibles que aparecían en las capturas. No incluyas nuevas imágenes con credenciales
-reales, tokens o licencias sin sanearlas primero. Consulta la
+La captura `05-license-key.png` tiene cubierta únicamente la zona pequeña que contiene
+la clave privada. Las demás imágenes conservan su contenido visual original. No incluyas
+nuevas imágenes con credenciales reales, tokens o licencias sin sanearlas primero.
+Consulta la
 [guía de instalación](../../../SETUP.md) para reproducir el entorno.
