@@ -50,21 +50,21 @@ datos locales de MinIO no deben publicarse ni incluirse en commits.
 
 ### Capturas de MinIO AIStor
 
-<p align="center">
-  <img src="docs/assets/screenshots/minio/1.png" alt="Captura 1 de MinIO AIStor" width="45%" />
-  <img src="docs/assets/screenshots/minio/2.png" alt="Captura 2 de MinIO AIStor" width="45%" />
-</p>
-<p align="center">
-  <img src="docs/assets/screenshots/minio/3.png" alt="Captura 3 de MinIO AIStor" width="45%" />
-  <img src="docs/assets/screenshots/minio/4.png" alt="Captura 4 de MinIO AIStor" width="45%" />
-</p>
-<p align="center">
-  <img src="docs/assets/screenshots/minio/5.png" alt="Captura 5 de MinIO AIStor" width="45%" />
-  <img src="docs/assets/screenshots/minio/6.png" alt="Captura 6 de MinIO AIStor" width="45%" />
-</p>
-<p align="center">
-  <img src="docs/assets/screenshots/minio/7.png" alt="Captura 7 de MinIO AIStor" width="45%" />
-</p>
+| Descarga de AIStor | Solicitud de licencia |
+|---|---|
+| ![Descarga de MinIO AIStor](docs/assets/screenshots/minio/01-aistor-download.png) | ![Solicitud de licencia AIStor](docs/assets/screenshots/minio/02-license-request.png) |
+
+| Confirmación de licencia | Correo de licencia |
+|---|---|
+| ![Confirmación de licencia AIStor](docs/assets/screenshots/minio/03-license-confirmation.png) | ![Correo de licencia AIStor](docs/assets/screenshots/minio/04-license-email.png) |
+
+| Clave de licencia | Archivo local de licencia |
+|---|---|
+| ![Clave de licencia AIStor](docs/assets/screenshots/minio/05-license-key.png) | ![Archivo local de licencia](docs/assets/screenshots/minio/06-license-file.png) |
+
+| Carpeta local de MinIO |
+|---|
+| ![Carpeta local de MinIO](docs/assets/screenshots/minio/07-minio-folder.png) |
 
 ## Inicio rápido
 
